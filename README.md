@@ -27,10 +27,10 @@ This work was conducted within the **HIPSI research project**:
 
 - `generating_dataset/`  
   Two key scripts for generating the **synthetic dataset** by combining segmented stain masks with clean document backgrounds.  
-  (⚠️ Note: folders with masks and clean documents are not included due to storage constraints.)
+  (⚠️ Note: folders with segmanted stains and clean documents are not included due to storage constraints.)
 
 - `options_of_image_preprocessing/`  
-  Early experiments with preprocessing techniques on real data (e.g., color space transformations, filtering).
+  Early experiments with preprocessing techniques on real data (e.g., CLAHE, morfological transformations).
 
 - `scripts_for_calculations/`  
   Scripts used to calculate performance metrics and compare preprocessing methods.  
