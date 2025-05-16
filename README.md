@@ -1,1 +1,1 @@
-# stain-detection-historic-papers
+# bachelor-degree-impl

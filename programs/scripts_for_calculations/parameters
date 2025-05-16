@@ -1,0 +1,12 @@
+metoda 			    parametre
+THRESH_BINARY		thresh = 160, maxval=255, type = THRESH_BINARY
+THRESH_BINARY_INV	thresh = 160, maxval=255, type = THRESH_BINARY_INV
+THRESH_TRUNC		thresh = 160, maxval=255, type = THRESH_TRUNC
+MEAN_C              maxval=125, adaptiveMethod = ADAPTIVE_THRESH_MEAN_C, thresholdType = THRESH_BINARY_INV, blockSize = 51, C = 7
+GAUSSIAN_C          maxval=125, adaptiveMethod = ADAPTIVE_THRESH_GAUSSIAN_C, thresholdType = THRESH_BINARY_INV, blockSize = 51, C = 7
+MEAN_C_BLUR         img = medianBlur(img, 5), maxval=125, adaptiveMethod = ADAPTIVE_THRESH_MEAN_C, thresholdType = THRESH_BINARY_INV, blockSize = 51, C = 7
+HSV                 inRange(hsv, Scalar(0, 5, 135), Scalar(50, 35, 180))
+LAB                 inRange(lab, Scalar(140, 125, 130), Scalar(165, 135, 135))
+YCrCb               inRange(ycrcb, Scalar(125, 125, 120), Scalar(160, 135, 125))
+CLAHE               clipLimit = 1.0, tileGridSize = Size(3, 3)
+MORFOLOGY           kernel = (4,4), erode = 1, dilate = 2
