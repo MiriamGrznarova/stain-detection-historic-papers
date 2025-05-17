@@ -45,8 +45,3 @@ During development, I used:
 - **ChatGPT** for debugging and error resolution
 
 ---
-
-## 📄 License
-
-This repository is provided for academic and non-commercial use.
-
