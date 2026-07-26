@@ -1,4 +1,4 @@
-# 🧠 Stain Detection on Historical Documents – Bachelor Thesis Scripts
+# 🧠 Stain Detection on Historical Documents
 
 This repository contains the source code developed for the automatic detection of biological degradation in historical documents using deep learning and synthetic data generation.
 
