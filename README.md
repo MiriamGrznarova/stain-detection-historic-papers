@@ -95,3 +95,12 @@ During development, I used:
 - **ChatGPT** for debugging and error resolution
 
 ---
+## License
+
+This work is licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+Please cite this work as:
+
+Miriam Grznarova, "Stain Detection in Historic Papers",
+GitHub repository: https://github.com/MiriamGrznarova/stain-detection-historic-papers
